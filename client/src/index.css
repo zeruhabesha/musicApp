@@ -1,0 +1,28 @@
+@import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
+@import url(../node_modules/bootstrap-icons/font/bootstrap-icons.css);
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'); */
+
+
+@media (min-width: 576px)
+{.modal-dialog {
+    max-width: 150vh;
+    margin: 3.75rem auto;}
+}
+  .modal-header button[data-bs-dismiss="modal"] {
+    /* Styles specifically for the close button */
+    color: black;
+    background-color: brown /* Change this to the desired color */
+  }
+  .mt-14 {
+    margin-top: 6.5rem;
+}
+
+.modal-header .btn-close {
+    padding: 0.5rem 0.5rem;
+    margin: -0.5rem -0.5rem -0.5rem auto;
+    color: white;
+    background: brown;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
